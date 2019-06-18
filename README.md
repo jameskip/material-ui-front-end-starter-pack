@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is just [Create React App](https://github.com/facebook/create-react-app) with `Material-UI`, `React-Router`, and `ESLint` included.
 
 ## Available Scripts
 
