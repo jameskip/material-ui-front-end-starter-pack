@@ -1,10 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import CssBaseline from '@material-ui/core/CssBaseline'
 
-function App() {
+import Routes from './routes'
+import logo from './logo.svg'
+import './App.css'
+
+function App () {
   return (
     <div className="App">
+      <CssBaseline />
+      <Routes />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -20,7 +25,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
